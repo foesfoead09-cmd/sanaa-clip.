@@ -1,0 +1,24 @@
+name: sanaa_clip
+description: صنعة كليب - مونطاج فيديو للحرفيين
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  image_picker: ^1.1.2
+  speech_to_text: ^7.0.0
+  translator: ^1.0.0
+  ffmpeg_kit_flutter_new: ^4.1.0
+  path_provider: ^2.1.4
+  gal: ^2.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
